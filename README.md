@@ -48,3 +48,7 @@ import java.sql.Statement;
     }
 
 }     
+
+## Grafo de Fluxo
+
+<img src="/img/grafo-de-fluxo.png">
