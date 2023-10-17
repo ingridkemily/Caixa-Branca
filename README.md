@@ -1,16 +1,37 @@
-# Erros encontrados no código
+# Projeto de Teste de Caixa Branca
 
-1. **Falta de documentação**:
-   - O código não possui documentação que explique sua finalidade ou funcionamento. A documentação é importante para ajudar outros desenvolvedores a entender o código.
+Este repositório contém um projeto de Teste de Caixa Branca em Java, dividido em três etapas.
 
-2. **Nomenclatura de variáveis e constantes**:
-   - As variáveis e constantes no código não seguem as convenções de nomenclatura Java. 
+## ETAPA 1 - Teste Caixa Branca Estático
 
-3. **Faltta de legibilidade e organização**:
-   - O código não está formatado de forma consistente e contém erros de formatação, como parênteses e aspas mal fechados.
+Nesta etapa, observamos o código fornecido no slide 28 da aula, que trata de teste de caixa branca. Identificamos possíveis erros no código e consideramos as recomendações dos slides posteriores. Criamos um projeto, digitamos o código e o enviamos para um repositório remoto.
 
-4. **Tratamento de Null Pointers**:
-   - O código não trata adequadamente as exceções que podem ocorrer durante a execução, como exceções de `NullPointerException` e `SQLException`.
+Os erros encontrados no código foram documentados em detalhes neste repositório.
 
-5. **Falta de fechamento de conexões**:
-   - O código abre uma conexão com o banco de dados, mas não fecha a conexão após seu uso.
+## ETAPA 2 - Critérios de Caixa Branca
+
+Na segunda etapa, criamos um grafo de fluxo com base no código fornecido e identificamos os pontos dentro do código. Consideramos os pontos de entrada e saída de valores e interligamos esses pontos com as devidas arestas. Calculamos a complexidade ciclomática do código e identificamos a quantidade de caminhos.
+
+O grafo de fluxo, a complexidade ciclomática e os caminhos identificados foram documentados no arquivo `GrafoFluxo.md` deste repositório.
+
+## ETAPA 3 - Documentação
+
+Na terceira etapa, criamos uma branch chamada "ETAPA 3" e geramos documentação para o código. Utilizamos comentários de uma linha e comentários de múltiplas linhas para explicar o código. Além disso, fornecemos documentação para as classes, métodos e variáveis.
+
+Um arquivo Java com a devida documentação foi criado no repositório, chamado `CodigoComDocumentacao.java`.
+
+## Instruções de Execução
+
+Para executar o código e visualizar os resultados da análise de Teste de Caixa Branca, siga as instruções fornecidas na seção correspondente a cada etapa.
+
+## Contribuições
+
+Este é um projeto de exemplo e não requer contribuições significativas. No entanto, você pode explorar o código e a documentação para entender melhor o Teste de Caixa Branca.
+
+## Licença
+
+Este repositório não possui uma licença específica, uma vez que se destina a fins educacionais.
+
+---
+
+Esperamos que este projeto de Teste de Caixa Branca seja útil para compreender e aplicar os conceitos de Teste de Caixa Branca em Java.
